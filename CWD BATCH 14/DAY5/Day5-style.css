@@ -1,0 +1,21 @@
+
+body {
+    background-color: #141413
+}
+td{
+    color: #f7dcc2;
+}
+tr{
+    font-family: 'Macondo', cursive;
+    color: #f7dcc2;
+    font-size: large;
+}
+.btn{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7dcc2;
+    color: black;
+}
+.dropdown-content{
+    font-family: 'Poppins', sans-serif;
+}

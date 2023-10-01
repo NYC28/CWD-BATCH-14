@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Day 5 (Dropdown and Buttons)</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Day5-style.css">
+</head>
+
+<body>
+    <!-- side nav -->
+    <ul id="slide-out" class="sidenav black">
+        <br>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f1f9590-e7a4-497b-aaf5-4c0c947ac009/ddz8dru-acac1b28-2ff5-468e-8091-f1845b2062ba.png/v1/fill/w_800,h_296/once_logo_neon_magenta_by_mimilevi_ddz8dru-400t.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzEyIiwicGF0aCI6IlwvZlwvNWYxZjk1OTAtZTdhNC00OTdiLWFhZjUtNGMwYzk0N2FjMDA5XC9kZHo4ZHJ1LWFjYWMxYjI4LTJmZjUtNDY4ZS04MDkxLWYxODQ1YjIwNjJiYS5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.NKtSo1UW1JqVUYyTiPQcopHX_AmF5VYYPb95lx6_UlI"
+            height="70px" style="padding-left: 15%;padding-top: 0.5%;padding-bottom: 5%;">
+        <li><a href="#!" class="white-text">Home<i class="small material-icons white-text">home</i></a>
+        </li>
+        <li><a href="#!" class="white-text">Search<i class="small material-icons white-text">search</i></a></li>
+        <li><a href="#!" class="white-text">Your Cart<i
+                    class="small material-icons white-text">add_shopping_cart</i></a>
+        </li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <li><a href="#!" class="white-text">English<i class="small material-icons white-text">language</i></a></li>
+        <li><a href="#!" class="white-text">Contacts<i class="small material-icons white-text">computer</i></a></li>
+        <li><a href="#!" class="white-text">All Rights Reserved<i
+                    class="small material-icons white-text">mail_outline</i></a></li>
+        <li><a href="#!" class="white-text">Neil Ysaac C. Caldito - Day 5<i
+                    class="small material-icons white-text">mood</i></a></li>
+
+        </li>
+    </ul>
+
+    <!-- nav bar -->
+    <nav>
+
+        <div class="nav-wrapper pink lighten-2">
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large ">
+                <i class="material-icons">menu</i></a>
+            <a href="#" class="brand-logo left"><img
+                    src="https://www.lovesickcactus.co.za/cdn/shop/products/once.png?v=1628239568&width=600"
+                    height="70px"></a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down ">
+                <li><a class="waves-effect waves-light btn" href="#">Log In</a></li>
+                <li><a class="waves-effect waves-light btn" href="#">Sign Up</a></li>
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Shop Now!</a>
+
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Albums</a></li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li><a href="#!">Apparels</a></li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li><a href="#!">Accesories</a></li>
+                    <li class="divider" tabindex="-1"></li>
+                </ul>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+
+
+        <!-- slider -->
+        <div class="slider" style="padding-bottom:10% ;">
+            <ul class="slides center">
+                <li>
+                    <img src="https://i.pinimg.com/564x/43/70/eb/4370eb97e225c6078c79ef98966314e7.jpg">
+
+                    <div class="caption left-align">
+                        <div style="font-size: 550% ;
+            color: rgba(255, 255, 255, 0.878);
+            font-family: 'Galada', cursive;">
+                            This is TWICE!</div>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/e5/96/89/e59689efe75f517ca34f1d1ae2b78db7.jpg">
+                    <!-- random image -->
+                    <div class="caption right-align">
+
+                    </div>
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/56/ae/70/56ae70cbb95cfe0d374442a296041c0d.jpg">
+                    <!-- random image -->
+                    <div class="caption lower right-align">
+                        <div style="font-size: 350% ;
+            color: rgb(203, 84, 216);
+            font-family: 'Galada', cursive;">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/fc/fd/b6/fcfdb66ba912f636634936d23c9b8515.jpg">
+                    <!-- random image -->
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/70/36/b8/7036b8f8fc5e36f68c9fed91bea31e9b.jpg">
+                    <!-- random image -->
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/28/8f/51/288f5110953e3dd612e339af414e26e8.jpg">
+                    <!-- random image -->
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/15/e1/28/15e128e175d8aa38c146b22122950941.jpg">
+                    <!-- random image -->
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/01/ff/80/01ff80110bf2ce7200ebe2d53b51b315.jpg">
+                    <!-- random image -->
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/bb/44/28/bb4428058c7697380bc63622fff64a34.jpg">
+                    <!-- random image -->
+                </li>
+                <li>
+                    <img src="https://i.pinimg.com/564x/79/ba/46/79ba467898f0dae9204e99e8080a3355.jpg">
+                    <!-- random image -->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div style="font-family: 'Macondo', cursive; color: #f7dcc2; font-size: 500%; padding-left: 3%;">ALBUMS:</div>
+    <table>
+        <tr>
+            <td><img class="materialboxed"
+                    src="https://merchbar.imgix.net/product/4/1616/42748540/UHlblcC1pr-music-land-album-limited-b-ver-twice-japan-4th-album-celebrate-29944060379216_600x.jpg?w=390&h=390"
+                    alt="Celebrate" height="150px"></td>
+            <td><img class="materialboxed"
+                    src="https://upload.wikimedia.org/wikipedia/fi/thumb/c/c0/Formula_of_Love-_O%2BT%3D%EF%BC%9C3.jpg/260px-Formula_of_Love-_O%2BT%3D%EF%BC%9C3.jpg"
+                    alt="Formula" height="150px"></td>
+            <td><img class="materialboxed"
+                    src="https://upload.wikimedia.org/wikipedia/ru/thumb/8/89/Twice_-_Perfect_World.png/274px-Twice_-_Perfect_World.png"
+                    alt="Perfect World" height="150px">
+            </td>
+            <td><img class="materialboxed" src="https://upload.wikimedia.org/wikipedia/en/f/ff/Twice_-_%26Twice.png"
+                    alt="twiiec" height="150px">
+            </td>
+            <td><img class="materialboxed"
+                    src="https://upload.wikimedia.org/wikipedia/en/9/90/Twice_-_Eyes_Wide_Open.png" alt="eyes wide
+                        open" height="150px"></td>
+            <td><img class="materialboxed"
+                    src="https://upload.wikimedia.org/wikipedia/en/e/eb/Twicetagram_album_cover.png" alt="Twicetagram"
+                    height="150px"></td>
+            <td><img class="materialboxed" src="https://upload.wikimedia.org/wikipedia/en/7/79/Twice_BDZ.jpeg" alt="BDZ"
+                    height="150px"></img>
+            <td><img class="materialboxed"
+                    src="https://upload.wikimedia.org/wikipedia/en/b/b8/Twice-Merry_%26_Happy_%28album_cover%29.jpg"
+                    alt="Merry & Happy" height="150px"></td>
+
+        </tr>
+        <tr>
+            <td>Celebrate</td>
+            <td>Formula of Love: O+T=<3< /td>
+            <td>Perfect World</td>
+            <td>&Twice</td>
+            <td>Eyes Wide Open</td>
+            <td>Twicetagram</td>
+            <td>BDZ</td>
+            <td>Merry & Happy</td>
+
+        </tr>
+    </table>
+
+    <div style="font-family: 'Macondo', cursive; color: #f7dcc2; font-size: 500%; padding-left: 3%">APPARELS:</div>
+    <table>
+        <td><img class="materialboxed" src="https://m.media-amazon.com/images/I/71zdCxUzmuL._AC_SL1500_.jpg"
+                height="200px"></td>
+        <td><img class="materialboxed"
+                src="https://i.etsystatic.com/39483187/r/il/56b88e/4951195314/il_fullxfull.4951195314_4kpd.jpg"
+                height="200px"></td>
+        <td><img class="materialboxed"
+                src="https://i.pinimg.com/originals/a6/2e/89/a62e8916695b5b9dd1be567b38f3f259.jpg" height="200px"></td>
+        <td><img class="materialboxed" src="https://twice-merch.com/wp-content/uploads/2022/10/image-4-compressed.jpg"
+                height="200px"></td>
+        <td><img class="materialboxed" src="https://pbs.twimg.com/media/Fu8MmeoXwAArbx-.jpg" height="200px"></td>
+        <td><img class="materialboxed" src="https://pbs.twimg.com/media/FLnaspzWQAMFBE5.jpg" height="200px"></td>
+    </table>
+    <div style="font-family: 'Macondo', cursive; color: #f7dcc2; font-size: 500%; padding-left: 3%">ACCESORIES:</div>
+    <table>
+        <td><img class="materialboxed" src="https://m.media-amazon.com/images/I/81ys1TFkEcL._AC_UF894,1000_QL80_.jpg"
+                height="200px"></td>
+        <td><img class="materialboxed"
+                src="https://www.billboard.com/wp-content/uploads/2023/03/Twice-Light-Stick.jpg?w=1000" height="200px">
+        </td>
+        <td><img class="materialboxed" src="https://i.pinimg.com/1200x/b5/ea/d0/b5ead0a233ee409b0bdae0ad06c50079.jpg"
+                height="200px"></td>
+        <td><img class="materialboxed" src="https://m.media-amazon.com/images/I/61ITlViIwdL._AC_UF1000,1000_QL80_.jpg"
+                height="200px"></td>
+        <td><img class="materialboxed"
+                src="https://filebroker-cdn.lazada.com.ph/kf/Sf9fac5a7bf8b404cb8392c5922b64e81I.jpg" height="200px">
+        </td>
+        <td><img class="materialboxed" src="https://m.media-amazon.com/images/I/71RRb3AJgzL._AC_SL1500_.jpg"
+                height="200px"></td>
+    </table>
+    <table>
+        <div style="font-family: 'Macondo', cursive; color: #f7dcc2; font-size: 500%; padding-left: 3%">PHOTOCARDS:
+        </div>
+        <tr>
+            <td><img class="materialboxed" src="https://ph-live-02.slatic.net/p/1a99d1b113c38fe2e4e921e4b0fe854d.jpg"
+                    height="200px"></td>
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/ec2ddb2ea288462a9b1d82b5d5afa670.jpg"
+                    height="200px"></td>
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/417a5b04e8c98e9465f85c958bc82159.jpg"
+                    height="200px"></td>
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/0bbe6a3ffc13725989ecf0450311b929.jpg"
+                    height="200px"></td>
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/3362eb4bf4cec6756d4f4ddeba65a03d.jpg"
+                    height="200px"></td>
+
+        </tr>
+        <table class="container">
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/1161e8ca2b799efba64385ee6b2090fe.jpg"
+                    height="200px"></td>
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/830b8451b9047ed12f9cf74320e56637.jpg"
+                    height="200px"></td>
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/410a797435ec0e2045661f2e620e994d.jpg"
+                    height="200px"></td>
+            <td><img class="materialboxed" src="https://ph-test-11.slatic.net/p/5308e3e3ac422d5bb98352adaef4d984.jpg"
+                    height="200px"></td>
+
+        </table>
+    </table>
+    <div style="font-family: 'Macondo', cursive; color: #f7dcc2; font-size: 500%; padding-left: 3%">POSTERS:</div>
+    <table>
+        <td><img class="materialboxed" src="https://i.pinimg.com/736x/e1/47/18/e14718c87fff6b1475df48addb46035f.jpg"
+                height="300px"></td>
+        <td><img class="materialboxed" src="https://i.pinimg.com/564x/15/47/52/154752edc46bf80b1bdf50a37d983e0c.jpg"
+                height="300px"></td>
+        <td><img class="materialboxed" src="https://i.pinimg.com/564x/d2/ae/ed/d2aeedabe92395ddf16a6ac4bb380583.jpg"
+                height="300px"></td>
+        <td><img class="materialboxed" src="https://i.pinimg.com/564x/cb/19/8f/cb198feb37c17898879ce487557245f8.jpg"
+                height="300px"></td>
+        <td><img class="materialboxed" src="https://i.pinimg.com/564x/a8/ad/ea/a8adead3a39d84698a75bfffe3290999.jpg"
+                height="300px"></td>
+        <td><img class="materialboxed" src="https://i.pinimg.com/564x/71/f9/a7/71f9a7fea6f7b0bf3117859b3536671b.jpg"
+                height="300px"></td>
+    </table>
+    </div>
+    <!-- floating button -->
+
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">add_shopping_cart</i>
+        </a>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- scripts -->
+    <script>
+        $(document).ready(function () {
+            $('.slider').slider({ height: 360 });
+            $('.materialboxed').materialbox();
+            $('.sidenav').sidenav({ draggable: false });
+            $('.dropdown-trigger').dropdown();
+            $('.fixed-action-btn').floatingActionButton();
+        });
+
+
+
+    </script>
+</body>
+
+</html>
